@@ -11,7 +11,8 @@
     git remote set-url origin --push --add https://leoleung0900@dev.azure.com/leoleung0900/pypack-guide/_git/pypack-guide
     git remote set-url origin --push --add https://leoleung0900@dev.azure.com/leoleung0900/dummy/_git/dummy
     ```
-3. Start contributing!!
+3. Set up precommit hook.
+4. Start contributing!!
     ```
     git add .
     git commit -m 'message'
