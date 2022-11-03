@@ -1,5 +1,7 @@
-"""Setup file for pypack-guide
-setup.cfg is used for configurations"""
 from setuptools import setup
 
-setup(setup_requires=["setuptools_scm"])
+with open("requirements.txt") as f:
+    required = f.read().splitlines()
+
+if __name__ == "__main__":
+    setup(use_scm_version=True, install_requires=required, test_suite="test")
