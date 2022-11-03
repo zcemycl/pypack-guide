@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 79
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.nox
+  | build
+  | dist
+  | \.eggs
+)/
+'''
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+markers = [
+  "local",
+]
