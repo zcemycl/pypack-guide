@@ -1,0 +1,68 @@
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+*/.ipynb_aml_checkpoints/*
+*.amltmp
+*.amltemp
+.amlignore
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+tags
+*.pdf
+*.csv
+test.py
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.tox
+.nox
+junit.xml
+coverage.xml
+.pytest_cache/
+.coverage*
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+docs/api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+
+# Per-project virtualenvs
+.venv*/
+.env
+
+# exclude data from source control by default
+data/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# secret
+.secret
