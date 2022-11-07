@@ -37,4 +37,9 @@
 2. Upload to pypi website.
     ```
     python -m twine upload dist/*
+    twine upload dist/* -u** -p**
+    ```
+3. Upload to azure devops.
+    ```
+    python -m twine upload -r leoleung0900 --config-file .pyazrc dist/*
     ```

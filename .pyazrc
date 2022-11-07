@@ -1,0 +1,6 @@
+[distutils]
+index-servers =
+    leoleung0900
+
+[leoleung0900]
+Repository: https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/upload/
