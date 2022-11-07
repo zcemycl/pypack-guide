@@ -54,3 +54,7 @@
     pip install pypack-guide2==0.1.dev23 \
         --index-url https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
     ```
+
+
+#### References
+1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
