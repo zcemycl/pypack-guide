@@ -29,7 +29,7 @@
     git push
     ```
 
-#### Push to pypi package
+#### Push package
 1. Build the package.
     ```
     python setup.py sdist bdist_wheel
@@ -42,4 +42,15 @@
 3. Upload to azure devops.
     ```
     python -m twine upload -r leoleung0900 --config-file .pyazrc dist/*
+    ```
+
+#### Install package
+1. Install from public pypi package.
+    ```
+    pip install pypack-guide
+    ```
+2. Install from private azure package.
+    ```
+    pip install pypack-guide2==0.1.dev23 \
+        --index-url https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
     ```
