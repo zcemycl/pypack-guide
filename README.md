@@ -51,10 +51,13 @@
     ```
 2. Install from private azure package.
     ```
-    pip install pypack-guide2==0.1.dev23 \
+    pip install pypack-guide==0.1.dev23 \
         --index-url https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
+    # or
+    pip install pypack-guide --extra-index-url=https://<your-feed-name>:<pat-key>@pkgs.dev.azure.com/leoleung0900/pypack-guide/_packaging/leoleung0900/pypi/simple/
     ```
 
 
 #### References
 1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
+2. [Get started with Python packages in Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops)
