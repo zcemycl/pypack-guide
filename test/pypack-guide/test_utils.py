@@ -1,8 +1,4 @@
-import _path
-
-from src.pypack_guide.utils import add
-
-print(_path.__name__)
+from pypack_guide.utils import add
 
 
 class Test_Utils:

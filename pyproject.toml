@@ -14,11 +14,3 @@ exclude = '''
   | \.eggs
 )/
 '''
-
-[tool.pytest.ini_options]
-pythonpath = [
-  "."
-]
-markers = [
-  "local",
-]
