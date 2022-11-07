@@ -1,6 +1,6 @@
 [distutils]
-index-servers =
-    leoleung0900
+Index-servers =
+  pypack-guide
 
-[leoleung0900]
-Repository: https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/upload/
+[pypack-guide]
+Repository = https://pkgs.dev.azure.com/leoleung0900/pypack-guide/_packaging/pypack-guide/pypi/upload/

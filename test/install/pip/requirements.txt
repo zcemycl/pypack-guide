@@ -1,0 +1,4 @@
+-i https://<username>:<pat-token>@pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
+pypack-guide2
+numpy
+Flask

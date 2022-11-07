@@ -42,6 +42,7 @@
 3. Upload to azure devops.
     ```
     python -m twine upload -r leoleung0900 --config-file .pyazrc dist/*
+    twine upload -r pypack-guide --config-file .pyazrc dist/*
     ```
 
 #### Install package
