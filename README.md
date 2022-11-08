@@ -53,7 +53,7 @@
 2. Install from private azure package.
     ```
     pip install pypack-guide==0.1.dev23 \
-        --index-url https://pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
+        --index-url https://<your-feed-name>:<pat-key>@pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
     # or
     pip install pypack-guide --extra-index-url=https://<your-feed-name>:<pat-key>@pkgs.dev.azure.com/leoleung0900/pypack-guide/_packaging/leoleung0900/pypi/simple/
     ```
