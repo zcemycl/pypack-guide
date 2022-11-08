@@ -1,0 +1,10 @@
+name: pypack-guide-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - -i https://<username>:<pat-token>@pkgs.dev.azure.com/leoleung0900/_packaging/leoleung0900/pypi/simple
+    - pypack-guide
+    - numpy
