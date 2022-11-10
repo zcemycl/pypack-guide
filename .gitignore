@@ -229,3 +229,4 @@ cython_debug/
 #.idea/
 .coverage
 lcov.info
+report.xml
