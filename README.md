@@ -78,3 +78,8 @@
 #### References
 1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
 2. [Get started with Python packages in Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops)
+3. [Automate PyPi releases with Github Actions](https://medium.com/@VersuS_/automate-pypi-releases-with-github-actions-4c5a9cfe947d)
+4. [“tag already exists in the remote" error after recreating the git tag](https://stackoverflow.com/questions/19298600/tag-already-exists-in-the-remote-error-after-recreating-the-git-tag)
+5. [GitHub Action Automatic Releases](https://github.com/marketplace/actions/automatic-releases#supported-parameters)
+6. [How to Publish a Python Package from GitHub Actions](https://www.seanh.cc/2022/05/21/publishing-python-packages-from-github-actions/)
+7. [Git tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
