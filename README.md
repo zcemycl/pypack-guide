@@ -58,6 +58,22 @@
     pip install pypack-guide --extra-index-url=https://<your-feed-name>:<pat-key>@pkgs.dev.azure.com/leoleung0900/pypack-guide/_packaging/leoleung0900/pypi/simple/
     ```
 
+#### Release and Publish Package
+1. Create new release.
+    ```
+    git tag v0.0.0
+    git push origin v0.0.0
+    ```
+2. Update the release with specific tag.
+    ```
+    git checkout v0.0.0
+    # make changes
+    git commit -am 'commit messages'
+    git tag -f v0.0.0
+    git push origin --delete v0.0.0
+    git push origin v0.0.0
+    ```
+
 
 #### References
 1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
