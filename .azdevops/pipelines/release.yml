@@ -20,3 +20,13 @@ steps:
     pip install -r requirements.txt
     python setup.py sdist bdist_wheel
   displayName: Build
+
+- task: CopyFiles@2
+  inputs:
+    contents: 'dist/**'
+    targetFolder: $(Build.ArtifactStagingDirectory)
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: pypack-guide
