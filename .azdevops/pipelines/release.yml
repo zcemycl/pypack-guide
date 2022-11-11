@@ -28,4 +28,4 @@ steps:
     artifactFeed: pypack-guide/pypack-guide-publish
 
 - script: |
-    python -m twine upload -r pypack-guide-publish --config-file .pyazrc dist/*
+    python -m twine upload -r pypack-guide-publish --config-file .pyazrc --verbose -p $(PAT) -u __token__ dist/*
