@@ -83,3 +83,5 @@
 5. [GitHub Action Automatic Releases](https://github.com/marketplace/actions/automatic-releases#supported-parameters)
 6. [How to Publish a Python Package from GitHub Actions](https://www.seanh.cc/2022/05/21/publishing-python-packages-from-github-actions/)
 7. [Git tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+8. [Publish Python packages with Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/artifacts/pypi?view=azure-devops&tabs=yaml)
+9. [Publish and download pipeline Artifacts](https://learn.microsoft.com/en-us/azure/devops/pipelines/artifacts/pipeline-artifacts?view=azure-devops&tabs=yaml)
