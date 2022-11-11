@@ -22,11 +22,11 @@ steps:
   displayName: Build
 
 - task: CopyFiles@2
+  displayName: Copy dist files
   inputs:
     contents: 'dist/**'
     targetFolder: $(Build.ArtifactStagingDirectory)
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: $(Build.ArtifactStagingDirectory)
-    artifactName: pypack-guide
+- publish: '$(Build.ArtifactStagingDirectory)/dist'
+  displayName: 'Publish artifacts'
+  artifactName: pypack-guide
