@@ -35,7 +35,7 @@ jobs:
         env:
           proj: ${{ github.event.inputs.proj }}
           org: ${{ github.event.inputs.org }}
-          pat: ${{ secrets.pat }}
+          pat: ${{ secrets.PAT }}
           feed: ${{ github.event.inputs.feed }}
         run: |
           pip install "$proj" -i https://"$org":"$pat"@pkgs.dev.azure.com/"$org"/"$proj"/_packaging/"$feed"/pypi/simple
