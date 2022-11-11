@@ -2,5 +2,5 @@
 Index-servers =
   pypack-guide-publish
 
-[pypack-guide]
+[pypack-guide-publish]
 Repository = https://pkgs.dev.azure.com/leoleung0900/pypack-guide/_packaging/pypack-guide-publish/pypi/upload/
