@@ -29,4 +29,4 @@ steps:
 
 - publish: '$(Build.ArtifactStagingDirectory)/dist'
   displayName: 'Publish artifacts'
-  artifactName: pypack-guide
+  artifact: pypack-guide
