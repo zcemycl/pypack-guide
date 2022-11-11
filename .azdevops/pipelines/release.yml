@@ -25,7 +25,7 @@ steps:
 - task: TwineAuthenticate@1
   displayName: Twine Authenticate
   inputs:
-    artifactFeed: pypack-guide/pypack-guide
+    artifactFeed: pypack-guide/pypack-guide-publish
 
 - script: |
-    python -m twine upload -r pypack-guide --config-file .pyazrc dist/*
+    python -m twine upload -r pypack-guide-publish --config-file .pyazrc dist/*
