@@ -21,12 +21,10 @@ steps:
     python setup.py sdist bdist_wheel
   displayName: Build
 
-- task: CopyFiles@2
-  displayName: Copy dist files
+- task: TwineAuthenticate@1
+  displayName: Twine Authenticate
   inputs:
-    contents: 'dist/**'
-    targetFolder: $(Build.ArtifactStagingDirectory)
+    artifactFeed: 'pypack-guide/pypack-guide'
 
-- publish: '$(Build.ArtifactStagingDirectory)/dist'
-  displayName: 'Publish artifacts'
-  artifact: pypack-guide
+- script: |
+    python -m twine upload -r pypack-guide --config-file .pyazrc dist/*
