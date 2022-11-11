@@ -1,0 +1,22 @@
+trigger:
+  tags:
+    include:
+    - 'v*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    pip install -e .[testing]
+  displayName: Install dependencies
+
+- script: |
+    pytest
+  displayName: Test with pytest
+
+- script: |
+    pip install setuptools sdist wheel twine
+    pip install -r requirements.txt
+    python setup.py sdist bdist_wheel
+  displayName: Build
