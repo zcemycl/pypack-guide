@@ -74,6 +74,8 @@
     git push origin v0.0.0
     ```
 
+#### Notes
+1. Twine upload to azure devops step can be used in github action too. 
 
 #### References
 1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
