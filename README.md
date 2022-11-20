@@ -77,6 +77,7 @@
 #### Notes
 1. Twine upload to azure devops step can be used in github action too.
 2. Need requirement.txt and conda.yml testings for installation.
+3. Azure Devops check in branches can be ignored.
 
 #### References
 1. [Twine Documentation](https://twine.readthedocs.io/en/stable/)
